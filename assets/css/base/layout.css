@@ -18,3 +18,18 @@
 	max-width: var(--s-container);
 	width: 90%;
 }
+
+/* Grid */
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.col {
+	width: calc(33% - 30px);
+	/* max-width: 400px; */
+	/* min-width: 300px; */
+}

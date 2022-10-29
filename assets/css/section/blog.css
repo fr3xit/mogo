@@ -1,0 +1,80 @@
+/* Card */
+.blog__card {
+	/* max-width: var(--s-card-w); */
+}
+
+/* Card Header */
+.blog__img-content {
+	left: -15px;
+	bottom: 15px;
+	right: unset;
+	top: unset;
+}
+
+.blog__date {
+	padding: 15px;
+	max-width: 60px;
+	max-height: 70px;
+
+	text-align: center;
+	background-color: var(--c-s);
+}
+
+.blog__date-num {
+	font-family: "Montserrat";
+	font-size: var(--s-font_b);
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.blog__date-month {
+	font-family: "Roboto";
+	font-size: var(--s-font-5);
+	font-weight: 300;
+	font-family: "Montserrat";
+	text-align: center;
+}
+
+/* Card main */
+.blog__title {
+	margin-top: 15px;
+
+	font-family: "Montserrat";
+	font-size: var(--s-font-2);
+	font-weight: 400;
+	text-transform: uppercase;
+	color: var(--c-grey__dark);
+}
+
+.blog__text {
+	margin-top: 10px;
+
+	font-family: "Roboto";
+	font-size: var(--s-font_s);
+	line-height: 24px;
+	font-weight: 400;
+	color: var(--c-grey);
+}
+
+/* Card footer */
+
+.blog__stat,
+.blog__card-views,
+.blog__card-comments {
+	display: flex;
+}
+
+.blog__stat {
+	gap: 15px;
+}
+
+.blog__card-views,
+.blog__card-comments {
+	color: var(--c-grey__light);
+	gap: 5px;
+}
+
+.blog__icon {
+	color: var(--c-s);
+}

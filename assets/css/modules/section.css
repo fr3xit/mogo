@@ -1,0 +1,18 @@
+
+/* Modifiers */
+
+/* Indent */
+.section--indent {
+	margin-top: var(--i_b);
+}
+
+/* Blue */
+.section--blue {
+background-color: var(--c-s);
+}
+
+/* Grey */
+.section--gray {
+	background-color: var(--c-o-2);
+	padding: 70px 0;
+}

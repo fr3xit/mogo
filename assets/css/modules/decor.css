@@ -1,0 +1,31 @@
+.decor-line:after {
+	display: block;
+	width: var(--s-decor-line-w);
+	min-height: var(--s-decor-line-h);
+
+	content: "";
+
+	background-color: var(--c-p);
+	border-radius: var(--s-border-r);
+}
+
+/* Modifiers */
+
+/* White */
+.decor-line--white:after{
+	background-color: var(--c-white);
+}
+
+/* Full */
+.decor-line--full:after {
+	--s-decor-line-h: 1px;
+	margin: 15px 0;
+	width: 100%;
+
+	background-color: var(--c-o-1);
+}
+
+/* Center */
+.decor-line--center:after {
+	margin: var(--i-decor-line) auto;
+}

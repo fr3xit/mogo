@@ -1,35 +1,52 @@
 :root {
 	/* Indents */
-	--i-indent-small: ;
-	--i-indent-middle: ;
-	--i-indent-big: ;
+	--i_s: 10px;
+	--i_m: 30px;
+	--i_big: 100px;
 
-	--i-section-offset: ;
-	--i-title-box-offset: ;
+	--i-section-offset: 100px;
+	--i-title-box-offset: 100px;
 
 	/* Card */
-	--s-card-gap: var(--i-indent-middle);
-	--s-card-w: ;
+	--s-card-gap: var(--i_m);
+	--s-card-w: 380px;
 	--s-card-h: ;
 	--s-card-img-w: ;
 	--s-card-img-h: ;
-	--s-card-offset: ;
+	--s-card-offset: -10px;
 
-	/* Border */
-	--s-border-w: 3px;
-	--s-border-r: 3px;
+
 
 	/* Animation */
 	--t-animation: 0.3s;
 
+	/* Accordion */
+	--s-accordion-img: 600px;
+	--s-accordion-content: 600px;
+	--s-accordion-gap: var(--i_m);
+
+	/* Reviews */
+	--s-review: 600px;
+	--s-review-gap: 70px;
+	--s-review-p: 35px;
+	--s-review-content-gap: 30px;
+
 	/* Container*/
 	--s-container: 1200px;
+	--s-intro-title-box: 900px;
+	--s-title-box-desc: 960px;
 
+		/* Buttons */
+	--i-button_d-w: var(--i-button_m-w);
+	--i-button_d-h: var(--i-button_m-h);
 
-	/* Buttons */
-	--i-button-w__main: var(--i-button-w);
-	--i-button-h__main: var(--i-button-h);
+	--i-button_m-w: 150px;
+	--i-button_m-h: 40px;
 
-	--i-button-w: 150px;
-	--i-button-h: 40px;
+	/* Header */
+	--i-header-h: 60px;
+	/* Intro */
+	/* --i-intro-slider-status-block: calc(var(--i-intro-slider-status-m) + var(--i-intro-slider-status-h)); */
+	--i-intro-slider-status-m: 150;
+	--i-intro-slider-status-h: 75px;
 }
