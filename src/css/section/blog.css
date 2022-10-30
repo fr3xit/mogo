@@ -1,6 +1,7 @@
 /* Card */
 .blog__card {
-	/* max-width: var(--s-card-w); */
+	max-width: 400px;
+	min-width: 150px;
 }
 
 /* Card Header */
@@ -12,9 +13,8 @@
 }
 
 .blog__date {
-	padding: 15px;
-	max-width: 60px;
-	max-height: 70px;
+	min-width: 60px;
+	min-height: 70px;
 
 	text-align: center;
 	background-color: var(--c-s);
