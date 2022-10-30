@@ -16,12 +16,11 @@
 	min-width: 60px;
 	min-height: 70px;
 
-	text-align: center;
+	/* text-align: center; */
 	background-color: var(--c-s);
 }
 
 .blog__date-num {
-	font-family: "Montserrat";
 	font-size: var(--s-font_b);
 	font-weight: 700;
 	text-align: center;
@@ -30,9 +29,7 @@
 
 .blog__date-month {
 	font-family: "Roboto";
-	font-size: var(--s-font-5);
 	font-weight: 300;
-	font-family: "Montserrat";
 	text-align: center;
 }
 
@@ -40,8 +37,7 @@
 .blog__title {
 	margin-top: 15px;
 
-	font-family: "Montserrat";
-	font-size: var(--s-font-2);
+	font-size: var(--s-font_s);
 	font-weight: 400;
 	text-transform: uppercase;
 	color: var(--c-grey__dark);
@@ -50,9 +46,8 @@
 .blog__text {
 	margin-top: 10px;
 
-	font-family: "Roboto";
 	font-size: var(--s-font_s);
-	line-height: 24px;
+	line-height: 1.5em;
 	font-weight: 400;
 	color: var(--c-grey);
 }
@@ -71,6 +66,9 @@
 
 .blog__card-views,
 .blog__card-comments {
+	font-family: "Roboto";
+	font-style: italic;
+	line-height: 1.5em;
 	color: var(--c-grey__light);
 	gap: 5px;
 }

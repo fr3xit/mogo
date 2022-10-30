@@ -1,9 +1,10 @@
 /* Base */
+@import url(./base/main.css);
 @import url(./base/theme.css);
 @import url(./base/var.css);
 @import url(./base/layout.css);
-/* @import url(./base/heading.css); */
-/* @import url(./base/paragraph.css); */
+@import url(./base/heading.css);
+@import url(./base/paragraph.css);
 @import url(./base/img.css);
 /* @import url(./base/link.css); */
 /* @import url(./base/list.css); */
@@ -35,12 +36,10 @@
 
 /* Tools */
 @import url(./tools/mixins.css);
-/* @import url(./tools/main.css); */
 /* @import url(./tools/reset.css); */
 
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;700&family=Roboto:ital,wght@0,400;1,300&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;500;700&family=Roboto:ital,wght@0,400;1,300&display=swap');
 /* Media */
 	/* @import url("./media/1200.css") (max-width: 1200px); */
 	/* @import url("./media/1000.css") (max-width: 990px); */

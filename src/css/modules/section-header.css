@@ -5,20 +5,19 @@
 }
 
 .section-header__desc--indent {
-	margin-bottom: var(--i_b);
+	/* margin-bottom: var(--i_b); */
 }
 
 .header-set__sup-title {
 	font-family: "Kaushan Script";
-	font-size: 24px;
+	font-size: var(--s-font_m);
 	color: var(--c-grey__dark);
 	font-weight: 400;
 	text-align: center;
 }
 
 .header-set__title {
-	font-family: "Montserrat";
-	font-size: 30px;
+	font-size: var(--s-font_b);
 	text-transform: uppercase;
 	color: var(--c-grey__dark);
 	font-weight: 700;
@@ -30,9 +29,7 @@
 
 	max-width: 960px;
 
-	font-family: "Roboto";
-	font-size: 15px;
-	line-height: 24px;
+	line-height: 1.5em;
 	color: var(--c-grey__light);
 	font-weight: 400;
 	text-align: center;
