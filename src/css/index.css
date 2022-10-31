@@ -22,12 +22,13 @@
 /* @import url(./modules/nav-bar.css); */
 @import url(./modules/decor.css);
 /* @import url(./modules/arrow.css); */
-/* @import url(./modules/icon.css); */
+@import url(./modules/icon.css);
 @import url(./modules/card.css);
 
 
 /* Section */
 @import url(./section/header.css);
+@import url(./section/about.css);
 @import url(./section/blog.css);
 
 

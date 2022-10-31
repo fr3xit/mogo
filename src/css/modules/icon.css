@@ -1,0 +1,7 @@
+.icon {
+	display: flex;
+	gap: 1px;
+
+	font-size: 1.875em;
+	color: var(--c-white);
+}

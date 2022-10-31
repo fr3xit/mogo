@@ -1,4 +1,6 @@
 .card {
+	max-width: var(--s-card-w-max);
+	min-width: var(--s-card-w-min);
 }
 
 .card__content {

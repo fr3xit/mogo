@@ -2,7 +2,7 @@
 	/* Indents */
 	--i_s: 10px;
 	--i_m: 30px;
-	--i_big: 100px;
+	--i_b: 100px;
 
 	--i-section-offset: 100px;
 	--i-title-box-offset: 100px;
@@ -10,7 +10,7 @@
 	/* Container*/
 	--s-container: 1200px;
 	--s-intro-title-box: 900px;
-	--s-title-box-desc: 960px;
+	--s-section-header-w-max: 960px;
 
 	/* Grid */
 	--s-col-w: 33%;
@@ -32,10 +32,9 @@
 
 	/* Card */
 	--s-card-gap: var(--i_m);
-	--s-card-w: 380px;
+	--s-card-w-max: 400px;
+	--s-card-w-min: 150px;
 	--s-card-h: ;
-	--s-card-img-w: ;
-	--s-card-img-h: ;
 	--s-card-offset: -10px;
 
 	/* Animation */
