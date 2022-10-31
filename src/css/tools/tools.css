@@ -2,8 +2,13 @@
 
 
 /* Flex Center */
-.flex-center {
+.-flex-center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+/* Pointer */
+.-pointer {
+	cursor: pointer;
 }

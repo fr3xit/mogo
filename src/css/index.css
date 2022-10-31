@@ -6,7 +6,7 @@
 @import url(./base/heading.css);
 @import url(./base/paragraph.css);
 @import url(./base/img.css);
-/* @import url(./base/link.css); */
+@import url(./base/link.css);
 /* @import url(./base/list.css); */
 /* @import url(./base/button.css); */
 /* @import url(./base/form.css); */
@@ -29,6 +29,7 @@
 /* Section */
 @import url(./section/header.css);
 @import url(./section/about.css);
+@import url(./section/team.css);
 @import url(./section/blog.css);
 
 
@@ -36,7 +37,7 @@
 
 
 /* Tools */
-@import url(./tools/mixins.css);
+@import url(./tools/tools.css);
 /* @import url(./tools/reset.css); */
 
 /* Fonts */

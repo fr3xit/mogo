@@ -10,12 +10,12 @@
 }
 
 .blog__date {
-	position: relative;
+	position: absolute;
 	left: -15px;
-	bottom: 75px;
+	bottom: 15px;
 
-	width: 15%;
-	height: 30%;
+	min-width: 15%;
+	min-height: 30%;
 	max-width: 60px;
 	max-height: 70px;
 	padding: 5px;
