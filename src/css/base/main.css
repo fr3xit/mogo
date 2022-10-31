@@ -9,4 +9,5 @@ body {
 .page {
 	font-family: "Montserrat";
 	font-size: var(--s-font_d);
+	color: var(--c-grey);
 }

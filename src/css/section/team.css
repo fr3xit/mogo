@@ -1,3 +1,4 @@
+/* Layout */
 .team__icon {
 
 }
@@ -23,6 +24,8 @@
 	transition: all var(--t-animation) linear;
 }
 
+/* Styles */
+
 /* Main */
 .team__card-main {
 	text-align: center;
@@ -37,10 +40,6 @@
 	color: var(--c-grey__dark);
 }
 
-team__card-main {
-
-}
-
 .team__prof {
 	margin-top: 10px;
 
@@ -48,5 +47,4 @@ team__card-main {
 	font-weight: 300;
 	font-style: italic;
 	line-height: 1.5em;
-	color: var(--c-grey);
 }

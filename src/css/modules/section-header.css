@@ -1,5 +1,6 @@
-/* Section Header */
+/* Layout */
 
+/* Section Header */
 .section-header {
 	text-align: center;
 }
@@ -7,6 +8,8 @@
 .section-header__desc--indent {
 	margin-bottom: var(--i_b);
 }
+
+/* Styles */
 
 .header-set__sup-title {
 	font-family: "Kaushan Script";
@@ -31,6 +34,5 @@
 
 	font-family: "Roboto";
 	line-height: 1.5em;
-	color: var(--c-grey__light);
 	font-weight: 400;
 }
