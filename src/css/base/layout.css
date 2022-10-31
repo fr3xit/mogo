@@ -27,5 +27,5 @@
 }
 
 .col {
-	width: calc(var(--s-col-w) - var(--s-grid-gap));
+	flex: calc(var(--s-col-w) - var(--s-grid-gap));
 }

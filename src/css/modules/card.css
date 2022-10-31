@@ -60,9 +60,8 @@
 }
 
 /* Full */
-.card--full {
-	--s-card-width: 100%;
-	width: 100%;
+.card--adaptive {
+	--s-card-w-max: 100%;
 }
 
 .cards-box--full {

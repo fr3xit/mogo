@@ -1,0 +1,18 @@
+.work {
+}
+
+.work__title {
+	margin-top: 15px;
+	font-size: var(--s-font_s);
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.work__text {
+	margin-top: 10px;
+
+	font-family: "Roboto";
+	line-height: 1.5em;
+	font-style: italic;
+	font-weight: 300;
+}

@@ -1,0 +1,9 @@
+/* Gallery */
+.gallery {
+	--s-col-w: 25%;
+	gap: 0;
+}
+
+.gallery__col {
+
+}
