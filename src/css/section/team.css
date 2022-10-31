@@ -1,5 +1,5 @@
 .team__icon {
-	/* gap: 1px; */
+
 }
 
 .team__icon-link {
@@ -11,36 +11,42 @@
 	height: 50px;
 
 	text-align: center;
-	color: #f38181;
-	background-color: #fce38a;
+	color: var(--c-p);
+
+	background-color: var(--c-yellow);
 }
 
 .team__icon-link:hover {
-	color: #f8f8f8;
-	background-color: #f38181;
+	color: var(--c-white);
+	background-color: var(--c-p);
 
-	transition: 0.2s linear;
+	transition: all var(--t-animation) linear;
+}
+
+/* Main */
+.team__card-main {
+	text-align: center;
 }
 
 .team__name {
 	margin-top: 20px;
 
-	font-family: "Montserrat";
-	font-size: 14px;
+	font-size: 0.875em;
 	font-weight: 700;
 	text-transform: uppercase;
-	text-align: center;
-	color: #333333;
+	color: var(--c-grey__dark);
+}
+
+team__card-main {
+
 }
 
 .team__prof {
 	margin-top: 10px;
 
 	font-family: "Roboto";
-	font-size: 15px;
 	font-weight: 300;
 	font-style: italic;
-	line-height: 24px;
-	text-align: center;
-	color: #999999;
+	line-height: 1.5em;
+	color: var(--c-grey);
 }

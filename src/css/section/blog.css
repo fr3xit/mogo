@@ -37,7 +37,8 @@
 	text-align: center;
 }
 
-/* Card main */
+/* Header */
+
 .blog__title {
 	margin-top: 15px;
 
@@ -46,6 +47,8 @@
 	text-transform: uppercase;
 	color: var(--c-grey__dark);
 }
+
+/* Main */
 
 .blog__text {
 	margin-top: 10px;
