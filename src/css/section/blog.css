@@ -6,15 +6,19 @@
 
 /* Card Header */
 .blog__img-content {
-	left: -15px;
-	bottom: 15px;
-	right: unset;
-	top: unset;
+	position: relative;
 }
 
 .blog__date {
-	min-width: 60px;
-	min-height: 70px;
+	position: relative;
+	left: -15px;
+	bottom: 85px;
+
+	width: 15%;
+	height: 30%;
+	max-width: 60px;
+	max-height: 70px;
+	padding: 5px;
 
 	/* text-align: center; */
 	background-color: var(--c-s);
