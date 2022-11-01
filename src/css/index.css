@@ -30,6 +30,7 @@
 /* Section */
 @import url(./section/header.css);
 @import url(./section/about.css);
+@import url(./section/services.css);
 @import url(./section/team.css);
 @import url(./section/work.css);
 @import url(./section/happy-clients.css);
@@ -44,7 +45,7 @@
 /* @import url(./tools/reset.css); */
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;500;700&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Roboto:ital,wght@0,400;1,300&display=swap');
 /* Media */
 	/* @import url("./media/1200.css") (max-width: 1200px); */
 	/* @import url("./media/1000.css") (max-width: 990px); */

@@ -6,7 +6,7 @@
 .card__content {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 .card__img-wrapper {

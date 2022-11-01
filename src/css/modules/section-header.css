@@ -15,7 +15,6 @@
 	font-family: "Kaushan Script";
 	font-size: var(--s-font_m);
 	color: var(--c-grey__dark);
-	font-weight: 400;
 	text-align: center;
 }
 
@@ -29,10 +28,8 @@
 
 .section-header__text {
 	margin: 0 auto;
-
 	max-width: var(--s-section-header-w-max);
 
 	font-family: "Roboto";
 	line-height: 1.5em;
-	font-weight: 400;
 }

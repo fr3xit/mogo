@@ -36,7 +36,7 @@
 /* Styles */
 .happy-client__name {
 	font-size: var(--s-font_s);
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: uppercase;
 	color: var(--c-grey__dark);
 }
@@ -53,6 +53,5 @@
 
 .happy-client__text {
 	font-family: "Roboto";
-	font-weight: 400;
 	line-height: 1.5em;
 }
