@@ -19,6 +19,7 @@
 @import url(./modules/section.css);
 @import url(./modules/section-header.css);
 @import url(./modules/gallery.css);
+@import url(./modules/review.css);
 /* @import url(./modules/slider.css); */
 /* @import url(./modules/nav-bar.css); */
 @import url(./modules/decor.css);
@@ -31,6 +32,7 @@
 @import url(./section/header.css);
 @import url(./section/about.css);
 @import url(./section/services.css);
+@import url(./section/recall.css);
 @import url(./section/team.css);
 @import url(./section/work.css);
 @import url(./section/happy-clients.css);

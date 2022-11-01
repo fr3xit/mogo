@@ -1,0 +1,50 @@
+.slider {
+}
+.slider__control {
+}
+.slider__content {
+}
+.slider__content-item {
+
+}
+.slider__content {
+
+}
+
+/* Modifiers */
+
+.slider__content-item--active {
+
+}
+
+/*  */
+.slider {
+
+}
+
+.slider__content {
+	min-height: 200px;
+}
+
+
+
+/*  */
+.slider__status {
+
+}
+
+.slider__status-item {
+
+}
+
+.slider__status-item--active::before {
+
+}
+
+.slider__status-num {
+
+}
+
+.slider__status-name {
+
+}

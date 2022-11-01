@@ -1,0 +1,45 @@
+/* Layout */
+.recall-box {
+	padding: 0 70px;
+}
+
+.recall {
+	--s-card-w-max: 100%;
+	/* --s-col-w: 100%; */
+}
+
+.recall__img-wrapper {
+	width: 15%;
+	height: 100%;
+
+	max-height: 150px;
+}
+
+
+.recall__content {
+	max-width: calc(85% - (var(--s-card-gap) + var(--s-border) * 2) ) ;
+	margin: 0 auto;
+	justify-content: center;
+
+	font-size: var(--s-font_m);
+}
+
+.recall__author {
+	padding-top: 10px;
+
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+/* Styles */
+.recall__text {
+	line-height: 2.25rem;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.recall__name {
+	font-family: "Kaushan Script";
+	color: var(--c-grey__dark);
+}
