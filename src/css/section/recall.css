@@ -8,11 +8,13 @@
 	/* --s-col-w: 100%; */
 }
 
-.recall__img-wrapper {
+.recall__avatar {
 	width: 15%;
-	height: 100%;
-
+	max-width: 150px;
+	min-width: 100px;
 	max-height: 150px;
+
+	/* max-height: 150px; */
 }
 
 
