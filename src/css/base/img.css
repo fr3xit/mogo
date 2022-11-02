@@ -1,7 +1,8 @@
 /* Images */
 
 .img {
-
+	/* Убирает полосу */
+	vertical-align: top;
 }
 
 /* Modifiers */

@@ -1,13 +1,23 @@
 /* Layout */
 
-.work {
+.work__img {
+	position: relative;
 }
 
 /* Styles */
 
+.work__content {
+	text-align: center;
+}
+
+.work__icon {
+
+}
+
 .work__title {
 	margin-top: 15px;
 	font-size: var(--s-font_s);
+	font-weight: 600;
 	text-transform: uppercase;
 }
 

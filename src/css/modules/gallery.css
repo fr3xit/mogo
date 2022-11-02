@@ -1,9 +1,9 @@
 /* Gallery */
 .gallery {
-	--s-col-w: 25%;
-	gap: 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .gallery__col {
-
+	flex: 25%;
 }
