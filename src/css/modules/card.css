@@ -11,6 +11,8 @@
 
 .card__img-box {
 	position: relative;
+
+	color: var(--c-white);
 }
 
 /* Modifiers */
@@ -20,7 +22,7 @@
 	background-color: var(--c-s);
 }
 
-.card__img-box--offset:hover .img-wrapper {
+.card__img-box--offset:hover .img-wrap {
 	transform: translate3d(var(--s-card-offset), var(--s-card-offset), 0);
 	transition: var(--t-animation) linear;
 }

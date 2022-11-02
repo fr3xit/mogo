@@ -5,8 +5,8 @@
 	vertical-align: top;
 }
 
-.img-wrapper {
-
+.img-wrap {
+	position: relative;
 }
 
 .img-inside {
@@ -16,8 +16,6 @@
 	right: 0;
 	bottom: 0;
 	z-index: 100;
-
-	color: var(--c-white);
 }
 
 /* Modifiers */
@@ -29,22 +27,22 @@
 }
 
 /* Image wrapper border */
-.img-wrapper--border {
+.img-wrap--border {
 	border: var(--s-border) solid var(--c-s);
 }
 
-.img-wrapper--circle {
+.img-wrap--circle {
 	border-radius: 50%;
 }
 
 /* Effects */
 
 /* Backlight */
-.img-wrapper--backlight {
+.img-wrap--backlight {
 	position: relative;
 }
 
-.img-wrapper--backlight:after {
+.img-wrap--backlight:after {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -57,7 +55,7 @@
 	background: radial-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0));
 }
 
-.img-wrapper--backlight:hover:after {
+.img-wrap--backlight:hover:after {
 	opacity: 1;
 
 	transition: var(--t-animation) linear;
