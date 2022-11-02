@@ -9,18 +9,18 @@
 	/* justify-content: center; */
 }
 
-.card__img-wrapper {
+.card__img-box {
 	position: relative;
 }
 
 /* Modifiers */
 
 /* Offset */
-.card__img-wrapper--offset {
+.card__img-box--offset {
 	background-color: var(--c-s);
 }
 
-.card__img-wrapper--offset:hover .card__img-inner--offset {
+.card__img-box--offset:hover .img-wrapper {
 	transform: translate3d(var(--s-card-offset), var(--s-card-offset), 0);
 	transition: var(--t-animation) linear;
 }
