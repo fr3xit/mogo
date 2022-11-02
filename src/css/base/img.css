@@ -58,5 +58,5 @@
 .img-wrap--backlight:hover:after {
 	opacity: 1;
 
-	transition: var(--t-animation) linear;
+	transition: all var(--t-animation) linear;
 }

@@ -2,8 +2,8 @@
 
 /* Card */
 .blog__card {
-	/* max-width: 400px;
-	min-width: 150px; */
+	max-width: 400px;
+	min-width: 150px;
 }
 
 /* Header */
@@ -83,6 +83,12 @@
 	font-style: italic;
 	line-height: 1.5em;
 	gap: 5px;
+}
+
+.blog__card-views:hover,
+.blog__card-comments:hover {
+	color: var(--c-grey__dark);
+	transition: all var(--t-animation) linear;
 }
 
 .blog__icon {
