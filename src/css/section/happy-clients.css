@@ -16,16 +16,8 @@
 }
 
 .happy-client {
-	--s-card-w-max: calc(50% - 10px * 2);
+	max-width: calc(50% - 10px * 2);
 	padding: 0 10px;
-}
-
-.happy-client__img {
-	flex: 20%;
-}
-
-.happy-client__content {
-	flex: calc(80% - var(--s-card-gap));
 }
 
 .happy-client__decor-line:after {
