@@ -5,17 +5,11 @@
 }
 
 .review__avatar {
-	max-width: 150px;
 	flex: 20%;
+	max-width: 200px;
+	min-width: 100px;
 }
 
 .review__content {
 	flex: calc(80% - var(--s-card-gap));
-}
-
-/* -------- */
-.review__img--def {
-	width: 40%;
-	height: 40%;
-	padding: 30%;
 }

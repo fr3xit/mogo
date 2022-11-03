@@ -4,24 +4,12 @@
 }
 
 .recall {
-	--s-card-w-max: 100%;
-	/* --s-col-w: 100%; */
+	width: 100%;
+	/* align-items: center; */
 }
-
-.recall__avatar {
-	width: 15%;
-	max-width: 150px;
-	min-width: 100px;
-	max-height: 150px;
-
-	/* max-height: 150px; */
-}
-
 
 .recall__content {
-	max-width: calc(85% - (var(--s-card-gap) + var(--s-border) * 2) ) ;
-	margin: 0 auto;
-	justify-content: center;
+	max-width: calc(70% - var(--s-card-gap) - 6px);
 
 	font-size: var(--s-font_m);
 }
@@ -44,4 +32,21 @@
 .recall__name {
 	font-family: "Kaushan Script";
 	color: var(--c-grey__dark);
+}
+
+
+/* Modifiers */
+
+/* Default avatar */
+
+.recall__avatar--def {
+	max-width: 150px;
+	padding: 0 25px;
+	/* background-color: aquamarine; */
+}
+
+.recall__img--def {
+	width: 40%;
+	height: 40%;
+	padding: 30%;
 }
