@@ -4,7 +4,6 @@
 }
 
 .logos__item {
-	max-width: calc(100% / 6);
 	flex: 1;
 	display: inline-block;
 
