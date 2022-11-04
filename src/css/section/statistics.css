@@ -1,0 +1,29 @@
+.statistics-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 1px;
+	padding: 0 1px;
+
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--c-white);
+	background-color: var(--c-s__light);
+}
+
+.statistics {
+	flex-grow: 1;
+	min-width: 120px;
+	padding: 80px 10px;
+
+	background-color: var(--c-s);
+}
+
+.statistics__num {
+	font-size: 4.5em;
+	font-weight: 700;
+}
+
+.statistics__name {
+	font-size: .875em;
+}

@@ -21,7 +21,7 @@
 }
 
 .service__content{
-	flex: calc(90% - var(--s-card-gap)) ;
+	flex: calc(90% - var(--i_m)) ;
 }
 
 /* Styles */

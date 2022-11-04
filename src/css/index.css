@@ -32,6 +32,7 @@
 /* Section */
 @import url(./section/header.css);
 @import url(./section/about.css);
+@import url(./section/statistics.css);
 @import url(./section/services.css);
 @import url(./section/recall.css);
 @import url(./section/team.css);
