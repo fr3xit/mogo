@@ -1,0 +1,37 @@
+.map-aut {
+	background-image: url(../../img/bg/map.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.map-inner {
+	padding: 60px 0;
+}
+
+.map {
+	color: var(--c-p);
+	text-align: center;
+
+}
+
+.map__icon {
+	color: var(--c-p);
+}
+
+.map__title {
+	margin-top: 20px;
+
+	font-size: 1.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.map__decor-line::after {
+	margin: 20px auto;
+}
+
+.map__link:hover {
+	color: var(--c-p__dark);
+	transition: all var(--t-animation) linear;
+}
