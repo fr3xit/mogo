@@ -1,0 +1,29 @@
+.devices-aut {
+	background-image: url(../../img/bg/devices.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.devices-inner {
+	padding-top: var(--i_b);
+}
+
+.devices {
+	position: relative;
+
+	margin: 0 auto;
+	max-width: 53%;
+}
+
+.devices__ipad {
+	max-width: 80%;
+}
+
+.devices__iphone {
+	position: absolute;
+	right: 0;
+	bottom: -17%;
+
+	max-width: 45%;
+}

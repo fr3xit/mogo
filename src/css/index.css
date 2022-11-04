@@ -28,12 +28,12 @@
 @import url(./modules/icon.css);
 @import url(./modules/card.css);
 
-
 /* Section */
 @import url(./section/header.css);
 @import url(./section/about.css);
 @import url(./section/statistics.css);
 @import url(./section/services.css);
+@import url(./section/devices.css);
 @import url(./section/recall.css);
 @import url(./section/team.css);
 @import url(./section/logos.css);
