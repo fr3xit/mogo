@@ -1,6 +1,5 @@
 .review {
 	display: flex;
-	flex-wrap: wrap;
 	gap: var(--s-card-gap);
 }
 

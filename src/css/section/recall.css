@@ -3,14 +3,10 @@
 	padding: 0 70px;
 }
 
-.recall {
-	width: 100%;
-	/* align-items: center; */
-}
-
 .recall__content {
-	max-width: calc(70% - var(--s-card-gap) - 6px);
-
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	font-size: var(--s-font_m);
 }
 
@@ -42,7 +38,6 @@
 .recall__avatar--def {
 	max-width: 150px;
 	padding: 0 25px;
-	/* background-color: aquamarine; */
 }
 
 .recall__img--def {
