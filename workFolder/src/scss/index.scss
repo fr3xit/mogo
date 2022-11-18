@@ -1,0 +1,65 @@
+/* Base */;
+@import './base/main';
+@import './base/theme';
+@import './base/var';
+@import './base/layout';
+@import './base/heading';
+@import './base/paragraph';
+@import './base/img';
+@import './base/link';
+/* @import './base/list'; */
+/* @import './base/button'; */
+/* @import './base/form'; */
+/* @import './base/typography'; */
+/* @import './base/scroll'; */
+
+/* Layout */
+
+/* Modules */
+@import './modules/section';
+@import './modules/section-header';
+@import './modules/seem';
+@import './modules/gallery';
+@import './modules/review';
+/* @import './modules/slider'; */
+/* @import './modules/nav-bar'; */
+@import './modules/decor';
+/* @import './modules/arrow'; */
+@import './modules/icon';
+@import './modules/card';
+
+/* Section */
+@import './section/header';
+@import './section/about';
+@import './section/statistics';
+@import './section/services';
+@import './section/devices';
+@import './section/recall';
+@import './section/team';
+@import './section/logos';
+@import './section/work';
+@import './section/happy-clients';
+@import './section/blog';
+@import './section/map';
+
+
+@import './section/footer';
+
+
+/* Tools */
+@import './tools/tools';
+@import './tools/mixin';
+@import './tools/worker';
+@import './tools/draft';
+/* @import './tools/reset'; */
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Roboto:ital,wght@0,400;1,300&display=swap);
+/* Media */
+	/* @import '"./media/1200") (max-width: 1200px'; */
+	/* @import '"./media/1000") (max-width: 990px'; */
+	/* @import '"./media/768") (max-width: 770px'; */
+	/* @import '"./media/480") (max-width: 575px'; */
+	/* @import '"./media/320") (max-width: 320px'; */
+
+/* Work */
