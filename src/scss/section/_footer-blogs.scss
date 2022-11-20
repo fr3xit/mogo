@@ -1,0 +1,32 @@
+/* Footer blog */
+.footer-blog {
+	display: flex;
+	flex-direction: column;
+	max-width: 380px;
+	gap: 30px;
+}
+
+.footer-blog__card {
+	gap: 15px;
+}
+
+.footer-blog__content {
+	justify-content: center;
+	max-width: 245px;
+}
+
+.footer-blog__title {
+	font-size: var(--s-font_s);
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 18px;
+	color: var(--c-grey__dark);
+}
+
+.footer-blog__date {
+	font-family: "Roboto";
+	font-size: var(--s-font_s);
+	font-weight: 300;
+	font-style: italic;
+	line-height: 24px;
+}

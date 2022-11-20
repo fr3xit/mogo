@@ -1,0 +1,25 @@
+/* instagram */
+
+.footer-instagram__gallery {
+	width: 270px;
+	gap: 1px;
+}
+
+.footer-instagram__item:hover {
+	background-color: var(--c-black);
+	box-shadow: 0 0px 20px rgba(0,0,0,0.6);
+	transition: all var(--t-animation) linear;
+}
+
+.footer-instagram__links {
+	padding-top: 10px;
+}
+
+.footer-instagram__link-item {
+	font-family: "Roboto";
+	font-size: var(--s-font_s);
+	font-style: italic;
+	font-weight: 300;
+	line-height: 24px;
+	color: var(--c-grey__dark);
+}
