@@ -11,7 +11,7 @@
 @import './base/button';
 /* @import './base/form'; */
 @import './base/typography';
-/* @import './base/scroll'; */
+@import './base/scroll';
 
 /* Layout */
 
@@ -24,9 +24,10 @@
 /* @import './modules/slider'; */
 /* @import './modules/nav-bar'; */
 @import './modules/decor';
-/* @import './modules/arrow'; */
+@import './modules/arrow';
 @import './modules/icon';
 @import './modules/card';
+@import './modules/accordion';
 
 /* Section */
 @import './section/header';
@@ -34,6 +35,7 @@
 @import './section/statistics';
 @import './section/services';
 @import './section/devices';
+@import './section/wedo';
 @import './section/recall';
 @import './section/team';
 @import './section/logos';

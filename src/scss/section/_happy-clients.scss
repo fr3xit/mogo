@@ -8,6 +8,7 @@
 
 /* Layout */
 .happy-clients-inner {
+	--s-col-w: 50%;
 	padding: 100px 0px;
 }
 
@@ -16,10 +17,14 @@
 }
 
 .happy-client {
-	max-width: calc(50% - 10px * 2);
-	padding: 0 10px;
+	max-width: 600px;
+
+	// padding: 0 10px;
 }
 
+.happy-client__content {
+		min-width: 220px;
+}
 .happy-client__decor-line:after {
 	margin-top: 15px;
 	margin-bottom: 20px;

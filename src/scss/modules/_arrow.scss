@@ -1,0 +1,18 @@
+/* Arrow */
+
+.arrow::after {
+	display: block;
+	width: 16px;
+	height: 16px;
+
+	content: "";
+
+	border-top: 2px solid var(--c-grey__light);
+	border-right: 2px solid var(--c-grey__light);
+
+	transform: translateY(-50%) rotate(135deg);
+}
+
+.arrow--active {
+	transform: translateY(-50%) rotate(-45deg);
+}

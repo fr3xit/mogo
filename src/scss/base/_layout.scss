@@ -1,4 +1,7 @@
 /* Layout */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
 /* Page */
 .page {
@@ -13,7 +16,7 @@
 /* Container */
 .container {
 	margin: 0 auto;
-	max-width: calc(var(--s-container) - var(--i_m) * 2);
+	max-width: calc(var(--s-container) + var(--i_m) * 2);
 	padding: 0 var(--i_m);
 }
 
