@@ -66,7 +66,7 @@ body {
   --s-font-5: 20px;
   --s-font-6: 24px;
   --s-font-7: 30px;
-  --s-font-8: 46px;
+  --s-font-8: 46px; 2.875em
   --s-font-9: 72px;
   --s-font-10: 150px;
   */
@@ -222,9 +222,112 @@ body {
 }
 
 /* @import './base/list'; */
-/* @import './base/button'; */
+/* Button */
+.btn {
+  min-width: var(--i-button_d-w);
+  min-height: var(--i-button_d-h);
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.btn:hover {
+  transition: var(--t-animation) linear;
+}
+
+.btn:focus {
+  /* outline: 0; */
+}
+
+/* Modifiers */
+/* Center */
+.btn--center {
+  margin: 0 auto;
+  display: block;
+}
+
+/* Fill */
+/* White */
+.btn--fill_white {
+  color: var(--c-white);
+  border: var(--s-border-h) solid var(--c-white);
+}
+
+.btn--fill_white:hover {
+  color: var(--c-black);
+  background-color: var(--c-white);
+}
+
+/* Black */
+.btn--fill_black {
+  color: var(--c-black);
+  border: var(--s-border-h) solid var(--c-black);
+}
+
+.btn--fill_black:hover {
+  color: var(--c-white);
+  background-color: var(--c-black);
+}
+
+/* Primary */
+.btn--full_primary {
+  background-color: var(--c-p);
+}
+
+.btn--full_primary:hover {
+  background-color: var(--c-p__dark);
+}
+
+/* Secondary */
+.btn--full_secondary {
+  background-color: var(--c-s);
+}
+
+.btn--full_secondary:hover {
+  background-color: var(--c-s__dark);
+}
+
+/* White */
+.btn--white {
+  color: var(--c-black);
+  background-color: var(--c-white);
+}
+
+.btn--white:hover {
+  color: var(--c-black);
+  background-color: var(--c-color-14);
+  border-color: var(--c-black);
+}
+
+/* Black */
+.btn--black {
+  color: var(--c-white);
+  background-color: var(--c-black);
+}
+
 /* @import './base/form'; */
-/* @import './base/typography'; */
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
 /* @import './base/scroll'; */
 /* Layout */
 /* Modules */
@@ -806,13 +909,13 @@ body {
   flex-wrap: wrap;
   gap: 30px;
   padding: 70px 0;
+  color: var(--c-grey__dark);
 }
 
 .footer__title {
   padding-bottom: 40px;
   font-size: var(--s-font_s);
   text-transform: uppercase;
-  color: var(--c-grey__dark);
   font-weight: 600;
 }
 
@@ -827,6 +930,111 @@ body {
 
 .copyright__link {
   color: var(--c-p);
+}
+
+/* Mogo */
+.footer-mogo-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 430px;
+}
+
+.mogo__title {
+  font-size: 2.875em;
+  font-weight: 700;
+  color: var(--c-grey__light);
+}
+
+.mogo__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: var(--s-font_m);
+  color: var(--c-grey);
+}
+
+/* Social */
+.social__title-num {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.social__title {
+  font-size: var(--s-font_s);
+  font-weight: 600;
+}
+
+.social__main {
+  display: flex;
+  gap: 20px;
+}
+
+.social__text {
+  font-family: "Roboto";
+  line-height: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--c-grey);
+}
+
+.social__icon {
+  gap: 15px;
+  font-size: var(--s-font_d);
+}
+
+.social__icon {
+  color: var(--c-s);
+}
+
+.social__icon-link:hover {
+  color: var(--c-s__dark);
+  transition: var(--t-animation) linear;
+}
+
+/* Subscribe */
+.subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.subscribe__input {
+  width: 60%;
+  padding: 10px;
+  background-color: var(--c-white);
+  border: 1px solid var(--c-o-1);
+  border-right: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--s-font_d);
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.subscribe__input:focus {
+  outline: 0;
+  border-color: var(--c-s);
+}
+
+.subscribe__input::-moz-placeholder {
+  color: var(--c-grey__light);
+}
+
+.subscribe__input:-ms-input-placeholder {
+  color: var(--c-grey__light);
+}
+
+.subscribe__input::placeholder {
+  color: var(--c-grey__light);
+}
+
+.subscribe__btn {
+  width: calc(40% - 40px);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875em;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--c-white);
 }
 
 /* Footer blog */
@@ -851,7 +1059,6 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   line-height: 18px;
-  color: var(--c-grey__dark);
 }
 
 .footer-blog__date {
@@ -884,7 +1091,6 @@ body {
   font-style: italic;
   font-weight: 300;
   line-height: 24px;
-  color: var(--c-grey__dark);
 }
 
 /* Tools */

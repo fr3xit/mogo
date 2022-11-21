@@ -1,10 +1,10 @@
-
-
 .footer__main {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
 	padding: 70px 0;
+
+	color: var(--c-grey__dark);
 }
 
 .footer__title {
@@ -12,7 +12,6 @@
 
 	font-size: var(--s-font_s);
 	text-transform: uppercase;
-	color: var(--c-grey__dark);
 	font-weight: 600;
 }
 
