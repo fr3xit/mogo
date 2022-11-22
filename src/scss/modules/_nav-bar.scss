@@ -1,0 +1,4 @@
+.menu-list {
+	@include flex;
+	gap: var(--i_m);
+}

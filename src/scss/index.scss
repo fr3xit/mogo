@@ -7,7 +7,7 @@
 @import './base/paragraph';
 @import './base/img';
 @import './base/link';
-/* @import './base/list'; */
+@import './base/list';
 @import './base/button';
 /* @import './base/form'; */
 @import './base/typography';
@@ -24,11 +24,12 @@
 /* Modules */
 @import './modules/section';
 @import './modules/section-header';
+@import './modules/logo';
 @import './modules/seem';
 @import './modules/gallery';
 @import './modules/review';
 @import './modules/slider';
-/* @import './modules/nav-bar'; */
+@import './modules/nav-bar';
 @import './modules/decor';
 @import './modules/arrow';
 @import './modules/icon';

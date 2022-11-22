@@ -1,0 +1,78 @@
+/* Header */
+
+.header {
+	position: absolute;
+	z-index: 100;
+
+	@include flex;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 50px;
+	width: calc(100% - var(--i_m) * 2);
+	margin-top: 20px;
+
+	color: var(--c-white);
+}
+
+/* Menu */
+.header__menu,
+.header__menu-list,
+.header__menu-icon {
+	@include flex;
+	flex-wrap: wrap;
+}
+
+.header__menu {
+	column-gap: 50px;
+
+	text-transform: uppercase;
+}
+
+.header__menu-list {
+	column-gap: 40px;
+}
+
+.header__menu-item:hover {
+	color: var(--c-yellow);
+	transition: all var(--t-animation) linear;
+}
+
+.header__menu-item--active {
+	color: var(--c-yellow);
+}
+
+.header__menu-item--active::after {
+	margin-top: 10px;
+	display: block;
+	min-height: var(--s-decor-line-h);
+
+	content: "";
+
+	background-color: var(--c-yellow);
+	border-radius: var(--s-border-r);
+}
+
+.header__menu-icon {
+	column-gap: 30px;
+}
+
+/* Modifiers */
+
+/* Fixed */
+.header-aut--fixed {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+
+	width: 100%;
+
+	background-color: var(--c-p);
+}
+
+.header-aut--fixed .header {
+	position: static;
+	margin: 0;
+	padding: 5px 0;
+}
