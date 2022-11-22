@@ -256,7 +256,7 @@ body {
 /* White */
 .btn--fill_white {
   color: var(--c-white);
-  border: var(--s-border-h) solid var(--c-white);
+  border: var(--s-border) solid var(--c-white);
 }
 
 .btn--fill_white:hover {
@@ -267,7 +267,7 @@ body {
 /* Black */
 .btn--fill_black {
   color: var(--c-black);
-  border: var(--s-border-h) solid var(--c-black);
+  border: var(--s-border) solid var(--c-black);
 }
 
 .btn--fill_black:hover {
@@ -347,6 +347,54 @@ body {
   border-radius: 10px;
 }
 
+/* Tools */
+/* Margin */
+/* Flex Center */
+.-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pointer */
+.-pointer {
+  cursor: pointer;
+}
+
+/* Inside */
+.-inside {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+/* .header-aut, */
+/* .main, */
+/* .footer-aut  */
+/* .section, */
+/* Section */
+/* .intro--aut, */
+/* .about-aut, */
+/* .statistics-aut, */
+/* .services-aut, */
+/* .devices-aut, */
+/* .wedo-aut, */
+/* .review1, */
+/* .team-aut, */
+/* .logos-aut, */
+/* .work-aut, */
+/* .review2, */
+/* .happy-clients-aut, */
+/* .blog-aut, */
+/* .map-aut */
+fsfsf {
+  display: none;
+}
+
+/* @import './tools/reset'; */
 /* Layout */
 /* Modules */
 /* Modifiers */
@@ -433,10 +481,13 @@ body {
 
 .review__content {
   flex: calc(80% - var(--s-card-gap));
+} /* Modifiers */
+/*  */
+.slider__content {
+  min-height: 200px;
 }
 
-/* @import './modules/slider'; */
-/* @import './modules/nav-bar'; */
+/*  */ /* @import './modules/nav-bar'; */
 .decor-line:after {
   display: block;
   width: var(--s-decor-line-w);
@@ -592,6 +643,124 @@ body {
 }
 
 /* Section */
+/* Intro */
+.intro--aut {
+  min-height: 100vh;
+  background-image: url(../../../assets/img/bg/preview.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  color: var(--c-white);
+}
+
+.intro__slider {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.intro__slider-content {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Intro Title */
+.intro__title-box {
+  max-width: var(--s-intro-title-box);
+  text-align: center;
+}
+
+.intro__sup-title {
+  font-family: "Kaushan Script";
+  font-size: 4.5em;
+  font-weight: 400;
+  color: var(--c-white);
+}
+
+.intro__title {
+  margin-top: 20px;
+  font-size: 9.375em;
+  font-weight: 700;
+  line-height: 140px;
+  text-transform: uppercase;
+  color: var(--c-white);
+}
+
+/* Intro decor */
+.intro__decor-line:after {
+  margin: calc(var(--i-decor-line) + 30px) auto;
+  background-color: var(--c-white);
+}
+
+/* Intro slider */
+/* Button */
+.intro__btm {
+  font-family: "Montserrat";
+  font-size: var(--s-font_s);
+  font-weight: 700;
+}
+
+.intro__btm:hover {
+  color: var(--c-p);
+}
+
+/* Slider status */
+.intro__slider-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: var(--m);
+  min-height: var(--h);
+  width: 100%;
+}
+
+.intro__slider-status-item {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-grow: 1;
+  min-width: 200px;
+  padding: 20px 0;
+  border-top: var(--s-border) solid var(--c-white);
+  border-radius: var(--s-border-r);
+  cursor: pointer;
+}
+
+.intro__slider-status-item--active::before {
+  position: absolute;
+  top: -3px;
+  left: 0;
+  z-index: 5;
+  display: block;
+  width: 30%;
+  min-height: 3px;
+  content: "";
+  background-color: var(--c-p);
+  border-radius: var(--s-border-r);
+}
+
+.intro__slider-num {
+  font-size: var(--s-font_m);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.intro__slider-name {
+  font-size: 1.125em;
+  text-transform: uppercase;
+}
+
 /* Layout */
 /* Styles */
 .about__title {
@@ -1219,54 +1388,6 @@ body {
   line-height: 24px;
 }
 
-/* Tools */
-/* Margin */
-/* Flex Center */
-.-flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Pointer */
-.-pointer {
-  cursor: pointer;
-}
-
-/* Inside */
-.-inside {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
-}
-
-/* .header-aut, */
-/* .main, */
-/* .footer-aut  */
-/* .section, */
-/* Section */
-/* .intro--aut, */
-/* .about-aut, */
-/* .statistics-aut, */
-/* .services-aut, */
-/* .devices-aut, */
-/* .wedo-aut, */
-/* .review1, */
-/* .team-aut, */
-/* .logos-aut, */
-/* .work-aut, */
-/* .review2, */
-/* .happy-clients-aut, */
-/* .blog-aut, */
-/* .map-aut */
-fsfsf {
-  display: none;
-}
-
-/* @import './tools/reset'; */
 /* Fonts */
 /* Media */
 /* @import '"./media/1200") (max-width: 1200px'; */

@@ -31,7 +31,7 @@
 /* White */
 .btn--fill_white {
 	color: var(--c-white);
-	border: var(--s-border-h) solid var(--c-white);
+	border: var(--s-border) solid var(--c-white);
 }
 
 .btn--fill_white:hover {
@@ -42,7 +42,7 @@
 /* Black */
 .btn--fill_black {
 	color: var(--c-black);
-	border: var(--s-border-h) solid var(--c-black);
+	border: var(--s-border) solid var(--c-black);
 }
 
 .btn--fill_black:hover {

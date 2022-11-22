@@ -13,6 +13,12 @@
 @import './base/typography';
 @import './base/scroll';
 
+/* Tools */
+@import './tools/tools';
+@import './tools/mixin';
+@import './tools/worker';
+@import './tools/draft';
+/* @import './tools/reset'; */
 /* Layout */
 
 /* Modules */
@@ -21,7 +27,7 @@
 @import './modules/seem';
 @import './modules/gallery';
 @import './modules/review';
-/* @import './modules/slider'; */
+@import './modules/slider';
 /* @import './modules/nav-bar'; */
 @import './modules/decor';
 @import './modules/arrow';
@@ -31,6 +37,7 @@
 
 /* Section */
 @import './section/header';
+@import './section/intro';
 @import './section/about';
 @import './section/statistics';
 @import './section/services';
@@ -50,13 +57,6 @@
 @import './section/footer-blogs';
 @import './section/footer-instagram';
 
-
-/* Tools */
-@import './tools/tools';
-@import './tools/mixin';
-@import './tools/worker';
-@import './tools/draft';
-/* @import './tools/reset'; */
 
 /* Fonts */
 @import url(https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Roboto:ital,wght@0,400;1,300&display=swap);

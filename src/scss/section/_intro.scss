@@ -1,0 +1,129 @@
+/* Intro */
+
+.intro--aut {
+	min-height: 100vh;
+
+	background-image: url(../../../assets/img/bg/preview.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.intro__inner {
+	// padding-top: var(--i-header-h);
+}
+
+.intro {
+	color: var(--c-white);
+}
+
+.intro__slider {
+	@include flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.intro__slider-content {
+	@include center_f;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+/* Intro Title */
+.intro__title-box {
+	max-width: var(--s-intro-title-box);
+
+	text-align: center;
+}
+
+.intro__sup-title {
+	font-family: "Kaushan Script";
+	font-size: 4.5em;
+	font-weight: 400;
+	color: var(--c-white);
+}
+
+.intro__title {
+	margin-top: 20px;
+
+	font-size: 9.375em;
+	font-weight: 700;
+	line-height: 140px;
+	text-transform: uppercase;
+	color: var(--c-white);
+}
+
+/* Intro decor */
+.intro__decor-line:after {
+	margin: calc(var(--i-decor-line) + 30px) auto;
+
+	background-color: var(--c-white);
+}
+
+/* Intro slider */
+
+/* Button */
+.intro__btm {
+	font-family: "Montserrat";
+	font-size: var(--s-font_s);
+	font-weight: 700;
+}
+
+.intro__btm:hover {
+	color: var(--c-p);
+}
+
+/* Slider status */
+
+.intro__slider-status {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+
+	margin-top: var(--m);
+	min-height: var(--h);
+	width: 100%;
+}
+
+.intro__slider-status-item {
+	position: relative;
+
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	flex-grow: 1;
+	min-width: 200px;
+
+	padding: 20px 0;
+	border-top: var(--s-border) solid var(--c-white);
+	border-radius: var(--s-border-r);
+
+	cursor: pointer;
+}
+
+.intro__slider-status-item--active::before {
+	position: absolute;
+	top: -3px;
+	left: 0;
+	z-index: 5;
+
+	display: block;
+	width: 30%;
+	min-height: 3px;
+
+	content: "";
+
+	background-color: var(--c-p);
+	border-radius: var(--s-border-r);
+}
+
+.intro__slider-num {
+	font-size: var(--s-font_m);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.intro__slider-name {
+	font-size: 1.125em;
+	text-transform: uppercase;
+}
